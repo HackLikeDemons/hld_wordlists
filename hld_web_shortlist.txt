@@ -6,6 +6,10 @@
 /!.htpasswd
 /.build
 /.buildpath
+/api/metadata
+/api/resource
+/metadata
+/resource
 /.builds
 /.bundle
 /.cache

@@ -6,6 +6,15 @@
 ${42*42}
 <%=42*42 %>
 {{=42*42}}
-{^xyzm42}1764{/xyzm42}
 ${donotexists|42*42}
 [[${42*42}]]
+{{7*7}}
+${7*7}
+{{4*4}}[[5*5]]
+{{7*'7'}}
+{{config}}
+{{config.items()}}
+{{settings.SECRET_KEY}}
+{{settings}}
+{{foobar}}
+{% debug %}
