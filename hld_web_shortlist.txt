@@ -1,3 +1,7 @@
+/rest/api/application.wadl
+/api/application.wadl
+/rest/application.wadl
+/application.wadl
 /nl/core/debugger/
 /nl/core/debugger/client.html
 /nl/core/debugger/start.html
